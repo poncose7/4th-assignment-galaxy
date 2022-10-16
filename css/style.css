@@ -1,0 +1,208 @@
+header{
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+   display: flex;
+   justify-content: space-between;
+   overflow: hidden;
+}
+.logo{
+    width: 20%;
+}
+.menu{
+    width: 20%; 
+    text-align: right;
+}
+.menu a{
+   text-decoration: none;
+   font-size: 19px;
+   color: #505050;
+   
+   
+}
+
+
+.banner_1{
+background-image: url(../img/banner-p1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+min-height: 100vh;
+position: relative;
+overflow: hidden;
+
+}
+.banner_content_1{
+position: absolute;
+color: #fff;
+text-align: center;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+.banner_content_1 h1{
+
+font-size: 45px;
+}
+.banner_content_1 p{
+
+font-size: 22px;
+}
+.banner_content_1 a{
+display: inline-block;
+text-decoration: none;
+font-size: 20px;
+font-weight: 500;
+padding:10px 20px;
+border-radius: 8px;
+background-color: #ff5a39;
+color: #fff !important; 
+
+}
+.sign_bar{
+max-width: 80%;
+margin: 0 auto;
+margin-top: 30px;
+overflow: hidden;
+display: flex;
+justify-content: space-between;
+}
+.signup_1{
+    width: 26.6%;
+    text-align: center;
+}
+.signup_1 img{
+   color: #ff1e00;
+}
+.signup_1 h1{
+color: rgb(19, 19, 19);
+font-size: 19px;
+font-weight: 500px;
+}
+.signup_1 p{
+color: #626262;
+    max-width: 50%;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-size: 15px;
+}
+.about{
+max-width: 50%;
+margin: 0 auto;
+margin-top: 40px;
+overflow: hidden;
+
+}
+
+.about_1{
+    text-align: center;
+}
+.about_1 p{
+    color: #ff2a00;
+    font-size: 29px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+.galaxy_compound{
+max-width: 90%;
+margin: 0 auto;
+margin-top: 40px;
+display: flex;
+justify-content: space-between;
+overflow: hidden;
+}
+.hello_galaxy{
+width: 25%;
+text-align: center;
+
+}
+.hello_galaxy img{
+    width: 100%;
+    
+}
+.hello_galaxy h1{
+    color:#292c34;
+    font-size: 20px;
+    font-weight: 500px;
+   
+}
+.hello_galaxy p{
+    color: #6d6d6d;
+    font-size: 15px;
+}
+.blog_compound{
+background-color: #c9c9c9;
+padding: 200px 0;
+
+}
+.blog_compound h1{
+    text-align: center;
+}
+.blog_1{
+max-width: 80%;
+margin: 0 auto;
+margin-top: 40px;
+display: flex;
+justify-content: space-between;
+overflow: hidden;
+}
+.pic_1{
+    width: 47%;  
+}
+.pic_1 img{
+    width: 100%;
+}
+.pic_1 h1{
+    color: #ff5634;
+    text-align: left;
+    font-weight: 100;
+}
+.pic_1 p{
+    color: #3a3a3a;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+footer{
+    background-color: #292c34;
+    padding: 20px 0px;
+}
+.footer_wrapper{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.term{
+  width: 30%;  
+}
+.term ul{
+list-style: none;
+display: flex;
+}
+.term ul li{
+margin-left: 40px;
+}
+.term ul li img{
+width: 100%;
+}
+
+.social_icon{
+    width: 30%;
+}
+.social_icon ul{
+   list-style: none;
+   display: flex;
+   justify-content: end;  
+}
+.social_icon ul li{
+margin-right: 80px;
+}
+.social_icon ul li a{
+color: #c9c9c9;
+font-size: 18px;
+}
